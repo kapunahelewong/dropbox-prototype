@@ -17,6 +17,7 @@
 		1B10A3EE1CAEEA8B00A93E01 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3ED1CAEEA8B00A93E01 /* SettingsViewController.swift */; };
 		1B10A3F11CAFFC2500A93E01 /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */; };
 		1B10A3F31CB002FA00A93E01 /* NewAcctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */; };
+		1B10A3F51CB0194900A93E01 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F41CB0194900A93E01 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1B10A3ED1CAEEA8B00A93E01 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
 		1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAcctViewController.swift; sourceTree = "<group>"; };
+		1B10A3F41CB0194900A93E01 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */,
+				1B10A3F41CB0194900A93E01 /* SignInViewController.swift */,
 				1B10A3ED1CAEEA8B00A93E01 /* SettingsViewController.swift */,
 				1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */,
 			);
@@ -278,6 +281,7 @@
 			files = (
 				1B10A3C21CAD9B0000A93E01 /* ViewController.swift in Sources */,
 				1B10A3C01CAD9B0000A93E01 /* AppDelegate.swift in Sources */,
+				1B10A3F51CB0194900A93E01 /* SignInViewController.swift in Sources */,
 				1B10A3F31CB002FA00A93E01 /* NewAcctViewController.swift in Sources */,
 				1B10A3F11CAFFC2500A93E01 /* Settings2ViewController.swift in Sources */,
 				1B10A3EE1CAEEA8B00A93E01 /* SettingsViewController.swift in Sources */,
