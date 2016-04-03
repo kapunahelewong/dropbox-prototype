@@ -32,6 +32,8 @@ class SwipeViewController: UIViewController, UIScrollViewDelegate {
             
             // Set the current page, so the dots will update
             swipeDots.currentPage = page
+            
+            print(page)
         }
 
         // Do any additional setup after loading the view.
