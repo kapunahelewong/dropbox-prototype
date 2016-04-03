@@ -18,6 +18,7 @@
 		1B10A3F11CAFFC2500A93E01 /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */; };
 		1B10A3F31CB002FA00A93E01 /* NewAcctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */; };
 		1B10A3F51CB0194900A93E01 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F41CB0194900A93E01 /* SignInViewController.swift */; };
+		1B10A3F71CB1651400A93E01 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B10A3F61CB1651400A93E01 /* SwipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
 		1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAcctViewController.swift; sourceTree = "<group>"; };
 		1B10A3F41CB0194900A93E01 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1B10A3F61CB1651400A93E01 /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				1B10A3F21CB002FA00A93E01 /* NewAcctViewController.swift */,
 				1B10A3F41CB0194900A93E01 /* SignInViewController.swift */,
+				1B10A3F61CB1651400A93E01 /* SwipeViewController.swift */,
 				1B10A3ED1CAEEA8B00A93E01 /* SettingsViewController.swift */,
 				1B10A3F01CAFFC2500A93E01 /* Settings2ViewController.swift */,
 			);
@@ -284,6 +287,7 @@
 				1B10A3F51CB0194900A93E01 /* SignInViewController.swift in Sources */,
 				1B10A3F31CB002FA00A93E01 /* NewAcctViewController.swift in Sources */,
 				1B10A3F11CAFFC2500A93E01 /* Settings2ViewController.swift in Sources */,
+				1B10A3F71CB1651400A93E01 /* SwipeViewController.swift in Sources */,
 				1B10A3EE1CAEEA8B00A93E01 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
