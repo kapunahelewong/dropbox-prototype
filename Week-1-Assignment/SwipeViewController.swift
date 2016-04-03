@@ -19,24 +19,13 @@ class SwipeViewController: UIViewController, UIScrollViewDelegate {
         
         scrollView.contentSize = CGSize(width: 986, height: 568)
         scrollView.delegate = self
-        
         swipeDots.numberOfPages = 3
         
         
 //        swipeDots.currentPageIndicatorTintColor = UIColor.redColor()
         
         
-        func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
-            // Get the current page based on the scroll offset
-            let page : Int = Int(round(scrollView.contentOffset.x / 320))
-            
-            // Set the current page, so the dots will update
-            swipeDots.currentPage = page
-            
-            print(page)
-        }
-
-        // Do any additional setup after loading the view.
+               // Do any additional setup after loading the view.
     
     }
     
@@ -46,6 +35,19 @@ class SwipeViewController: UIViewController, UIScrollViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
+        // Get the current page based on the scroll offset
+        let page : Int = Int(round(scrollView.contentOffset.x / 320))
+        
+        // Set the current page, so the dots will update
+        swipeDots.currentPage = page
+        
+        print(page)
+    }
+    
+
     
 
     /*
